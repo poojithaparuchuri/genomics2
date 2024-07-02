@@ -1,0 +1,11 @@
+base_idx = { 'A' : 0, 'T' : 1, 'C' : 2, 'G' : 3 } #letter to number matching for index
+motif = [[.5,.5,.5,.5,0,0,0,0,0,2,-99,-99,.5],   #A
+         [0,0,0,0,0,0,0,0,0,-99,2,-99,0],        #T
+         [0,0,0,0,0,0,0,0,0,-99,-99,-99,0],      #C
+         [.5,.5,.5,.5,0,0,0,0,0,.5,-99,2,0]]     #G
+         
+def identifyORFs(): #main function: performs the goals of the program. Finding the most likely coding region.
+
+def scanSeq():  #searches a single sequence for possible orfs. Returns start positions, lengths and sequences of ORFs
+
+def scoreMotif(): #scores a sequence the same length as the motif[13 bases]. Returns motif score.
